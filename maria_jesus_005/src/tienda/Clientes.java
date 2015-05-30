@@ -1,6 +1,8 @@
 package tienda;
 
-public class Clientes {
+import java.io.*;
+
+public class Clientes{
 	
 	private String id_cliente;
 	private String nombre;
@@ -9,6 +11,8 @@ public class Clientes {
 	private int edad;
 	private String localidad;
 	private String codCuenta;
+	
+
 	/**
 	 * @return el id_cliente
 	 */

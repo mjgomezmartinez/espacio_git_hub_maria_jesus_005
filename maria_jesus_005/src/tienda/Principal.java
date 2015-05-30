@@ -1,22 +1,34 @@
 package tienda;
 
+import java.util.ArrayList;
+import java.util.Date;
+
 public class Principal {
 	
-	Clientes codCliente1=new Clientes();
-	Clientes codCliente2=new Clientes();
-	Clientes codCliente3=new Clientes();
+	public static void main(String[]args){
 	
-	Productos codProducto1=new Productos();
-	Productos codProducto2=new Productos();
-	Productos codProducto3=new Productos();
+	ArrayList <objet> gestion=new ArrayList <objet>();
 	
-	Tiendas codTienda1=new Tiendas();
-	Tiendas codTienda2=new Tiendas();
-	Tiendas codTienda3=new Tiendas();
+	Clientes Id_cliente1=new Clientes();
+	Clientes Id_cliente2=new Clientes();
+	Clientes Id_cliente3=new Clientes();
 	
-	Vendedores codVendedor1=new Vendedores();
-	Vendedores codVendedor2=new Vendedores();
-	Vendedores codVendedor3=new Vendedores();
-
-
+	Productos Id_Producto1=new Productos();
+	Productos Id_Producto2=new Productos();
+	Productos Id_Producto3=new Productos();
+	
+	Tiendas Id_Tienda1=new Tiendas();
+	Tiendas Id_Tienda2=new Tiendas();
+	Tiendas Id_Tienda3=new Tiendas();
+	
+	Vendedores Id_Vendedor1=new Vendedores();
+	Vendedores Id_Vendedor2=new Vendedores();
+	Vendedores Id_Vendedor3=new Vendedores();
+	
+	
+	System.out.println("gestion.get(3).toString()");
+	
+	java.util.Date fecha = new Date();
+	System.out.println (fecha);
+}
 }
